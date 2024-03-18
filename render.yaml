@@ -1,8 +1,8 @@
 databases:
-  - name: mysitedb
+  - name: yossis_db
     plan: free
-    databaseName: mysite
-    user: mysite
+    databaseName: yossis_db
+    user: yossis_db_user
 
 services:
   - type: web
