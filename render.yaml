@@ -7,7 +7,7 @@ databases:
 services:
   - type: web
     plan: free
-    name: mysite
+    name: shope_back-3
     runtime: python
     buildCommand: "./build.sh"
     startCommand: "python -m gunicorn myproj.asgi:application -k uvicorn.workers.UvicornWorker"
